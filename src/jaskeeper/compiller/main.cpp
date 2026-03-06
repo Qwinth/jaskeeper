@@ -4,7 +4,7 @@
 #include <jaskeeper/compiller/lexer.hpp>
 
 int main() {
-    std::ifstream file("/home/nullnore/projects/cpp/jaskeeper/tests/testclass.js");
+    std::ifstream file("testclass.js");
 
     std::stringstream ss;
     ss << file.rdbuf();
